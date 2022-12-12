@@ -1,8 +1,33 @@
 {
   "users": [
-    
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$iAg9aeY.hJnIPQLnJt5x8OajjtYYiE3.3XD3ydqK8je1c1tDDRF0.",
+      "isAdmin": true,
+      "id": 1
+    }
   ],
   "tours": [
-    
+    {
+      "name": "旗津彩虹教堂",
+      "description": "象徵雨過天晴的彩虹，因為旗津美麗的海岸線而停留，更讓高雄這座以愛聞名的城市，增添海洋浪漫氣息。",
+      "imgUrl": "https://khh.travel/content/images/Attractions/18495/640x480_attractions-image-krscupuu1kufxdwifq3lyq.jpg",
+      "userId": "1",
+      "id": 1
+    },
+    {
+      "name": "清水宮",
+      "description": "1.參觀陶瓷杯器組合的工藝作品2.體驗自助收驚3.眺望洲仔濕地",
+      "imgUrl": "https://khh.travel/image/8469/640x480",
+      "userId": "1",
+      "id": 2
+    }
+  ],
+  "collects": [
+    {
+      "userId": "1",
+      "tourId": "1",
+      "id": 1
+    }
   ]
 }
